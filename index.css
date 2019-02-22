@@ -1,0 +1,34 @@
+
+html{
+  background: lightgray;
+}
+head{
+  font-family: 'Corben', cursive;
+  font-weight: 600;
+}
+hr{
+  border: 6px solid black;
+  border-radius: 10px;
+}
+.my-name{
+  font-size: 38px;
+}
+.desc{
+  font-size: 24px;
+}
+.containter{
+  font-size: 35px;
+  width: 100%;
+  display: grid;
+  grid-template-columns:20% 50% 20%;
+  grid-column-gap: 1%;
+  height: 80%
+}
+.divbg{
+  background: white;
+}
+.divdetails{
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-row-gap: 1%;
+}
