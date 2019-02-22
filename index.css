@@ -11,6 +11,9 @@ hr{
   border: 6px solid black;
   border-radius: 10px;
 }
+body{
+  padding-left: 10%;
+}
 footer{
   margin-top: 1%;
   display: flex;
@@ -34,7 +37,7 @@ dt{
   font-size: 35px;
   width: 100%;
   display: grid;
-  grid-template-columns:20% 70%;
+  grid-template-columns:15% 70%;
   grid-column-gap: 1%;
   height: 80%
 }
@@ -47,12 +50,19 @@ dt{
   grid-row-gap: 1%;
   margin-right: 1%;
 }
+.divicons{
+  display: grid;
+  grid-template-rows: 250px 250px 250px;
+  justify-content: center;
+  align-content: center;
+
+}
 .par{
   font-size: 20px;
 }
-.btnGH{
-  width: 50px;
-height: 20px;
-display:inline-block;
-  background:url('images/GithubLogo.png');
+.imgSideBar{
+  height: 200px;
+  width: 200px;
+
+
 }
